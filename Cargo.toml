@@ -1,0 +1,11 @@
+[package]
+name = "humanunits"
+version = "0.1.0"
+edition = "2021"
+description = "Converts units to human readable strings."
+license = "MIT"
+repository = "https://github.com/evanj/humanunits"
+keywords = ["byte", "human", "units", "conversion", "size", "formatting", "humanize"]
+categories = ["value-formatting"]
+
+[dependencies]
