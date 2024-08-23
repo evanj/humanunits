@@ -6,7 +6,7 @@ struct ByteUnit {
 }
 
 impl ByteUnit {
-    const UNIT_LABELS: [&str; 3] = ["KiB", "MiB", "GiB"];
+    const UNIT_LABELS: [&'static str; 3] = ["KiB", "MiB", "GiB"];
 
     fn all() -> Vec<Self> {
         let mut result = Vec::with_capacity(Self::UNIT_LABELS.len());

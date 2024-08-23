@@ -7,5 +7,15 @@ license = "MIT"
 repository = "https://github.com/evanj/humanunits"
 keywords = ["byte", "human", "units", "conversion", "size", "formatting", "humanize"]
 categories = ["value-formatting"]
+publish = false
+
+[lints.clippy]
+cargo = "deny"
+nursery = "deny"
+pedantic = "deny"
+style = "deny"
+cast_possible_truncation = { level = "allow", priority = 1 }
+cast_precision_loss = { level = "allow", priority = 1 }
+cast_sign_loss = { level = "allow", priority = 1 }
 
 [dependencies]
